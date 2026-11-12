@@ -150,6 +150,8 @@
     .frame img { width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; object-position: top left; }
     .card:not(.wide) .frame { margin-top: auto; }
     .card:not(.wide) .go { margin-bottom: 30px; }
+    .gos { display: flex; flex-wrap: wrap; gap: 8px; margin: 26px 0 30px; }
+    .gos .go { margin: 0 !important; }
 
     /* Log + principles */
     .split { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
@@ -253,7 +255,7 @@
         <span class="mark">o</span><span><b>overbid.in</b><small>Pay-to-rank leaderboard for Indian brands</small></span><span class="state">Live</span>
       </a>
       <a href="https://ankitshdev.github.io/threadfit/" target="_blank" rel="noopener" style="--c:#f45b16">
-        <span class="mark">T</span><span><b>ThreadFit</b><small>Finds customers on Reddit</small></span><span class="state wait">In review</span>
+        <span class="mark">T</span><span><b>ThreadFit</b><small>Finds customers on Reddit</small></span><span class="state">Live</span>
       </a>
       <a href="https://backyourcountry.fun" target="_blank" rel="noopener" style="--c:#d4a017">
         <span class="mark">B</span><span><b>BackYourCountry.fun</b><small>Every country on one leaderboard</small></span><span class="state">Live</span>
@@ -287,7 +289,7 @@
 
       <article class="card" style="--c:#f45b16">
         <div class="body">
-          <div class="top"><span class="num">/02</span><span class="state wait">In Chrome Web Store review</span></div>
+          <div class="top"><span class="num">/02</span><span class="state">On the Chrome Web Store</span></div>
           <h3>ThreadFit</h3>
           <p class="what">A Chrome extension that finds Reddit threads where your product genuinely helps, scores each for buying intent, and drafts an honest reply you post yourself.</p>
           <ul>
@@ -296,7 +298,7 @@
             <li>No server: everything stays in the browser</li>
           </ul>
           <div class="tags"><span>Chrome MV3</span><span>JavaScript</span><span>LLM APIs</span></div>
-          <a class="go" href="https://ankitshdev.github.io/threadfit/" target="_blank" rel="noopener">See ThreadFit <span>↗</span></a>
+          <div class="gos"><a class="go" href="https://chromewebstore.google.com/detail/biomfjahdpbmjeanfoabiljadpilfimm" target="_blank" rel="noopener">Add to Chrome <span>↗</span></a><a class="go" href="https://ankitshdev.github.io/threadfit/" target="_blank" rel="noopener">Website <span>↗</span></a></div>
         </div>
         <a class="frame" href="https://ankitshdev.github.io/threadfit/" target="_blank" rel="noopener" tabindex="-1"><div class="dots"><i></i><i></i><i></i></div><img src="img/threadfit.webp" alt="The ThreadFit website" width="1280" height="800" loading="lazy"></a>
       </article>
@@ -327,7 +329,7 @@
       <div class="panel">
         <h3>Recent log</h3>
         <ol class="log">
-          <li><time datetime="2026-11-11">11 Nov 2026</time><div><b>ThreadFit sent for review</b><p>Version 2.0.1 submitted to the Chrome Web Store.</p></div></li>
+          <li><time datetime="2026-11-12">12 Nov 2026</time><div><b>ThreadFit went live</b><p>Published on the Chrome Web Store, a day after I sent it for review.</p></div></li>
           <li><time datetime="2026-11-08">8 Nov 2026</time><div><b>overbid.in went live</b><p>The leaderboard opened with UPI payments, after a waitlist phase.</p></div></li>
           <li><time>Earlier</time><div><b>BackYourCountry.fun</b><p>The country leaderboard where the code behind overbid.in started.</p></div></li>
         </ol>
